@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+._*
+
+# Excel lock files
+~$*.xlsx
+~$*.xls
