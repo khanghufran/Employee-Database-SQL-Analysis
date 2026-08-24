@@ -8,8 +8,6 @@ The analysis focuses on employee headcount, departmental distribution, education
 
 The project demonstrates the use of SQL aggregation, filtering, grouping, subqueries, and basic analytical queries to extract information from structured employee data.
 
----
-
 ## Objective
 
 The main objectives were to:
@@ -22,8 +20,6 @@ The main objectives were to:
 - Identify the department with the highest average salary.
 - Identify employees earning above the overall average salary.
 - Analyze gender distribution across departments, payment tiers, and education levels.
-
----
 
 ## Dataset Overview
 
@@ -42,8 +38,6 @@ Fields include:
 - PaymentTier
 - Salary
 
----
-
 ## SQL Analysis
 
 The SQL queries are organized into four analysis areas.
@@ -60,8 +54,6 @@ The basic analysis includes queries for:
 - Employee distribution by payment tier
 - City-level employee distribution
 
----
-
 ### 2. Department Analysis
 
 Department-level analysis includes:
@@ -72,8 +64,6 @@ Department-level analysis includes:
 - Employee distribution by payment tier within each department
 
 The dataset contains **10 departments**.
-
----
 
 ### 3. Salary Analysis
 
@@ -105,8 +95,6 @@ The department with the highest average salary is:
 
 **Sales — approximately 102,402.79**
 
----
-
 ### 4. Gender Analysis
 
 Gender analysis includes:
@@ -124,8 +112,6 @@ The dataset contains:
 | Female | 2,141 |
 | Male | 1,753 |
 | Others | 759 |
-
----
 
 ## SQL Techniques Used
 
@@ -147,8 +133,6 @@ The project demonstrates the use of:
 - Grouped analysis
 - Structured data analysis
 
----
-
 ## Example Business Questions
 
 Some of the questions answered through SQL include:
@@ -169,10 +153,8 @@ Which departments have an average salary above the company-wide average?
 How many employees earn more than the company-wide average salary?
 
 What is the gender distribution across departments?
-
 ```
 
----
 
 ## Key Findings
 
@@ -184,19 +166,16 @@ The analysis produced several workforce-related findings, including:
 - Sales has the highest average salary among departments.
 - 2,991 employees earn more than the overall average salary.
 - Employee gender, education, department, and payment-tier distributions can be examined through grouped SQL analysis.
----
+  
 
 ## Tools Used
 
 - SQL
 - Relational database concepts
- 
----
    
 ## Repository Structure
 
 ```text
-
 Employee-Database-SQL-Analysis/
 │
 ├── README.md
@@ -215,5 +194,4 @@ Employee-Database-SQL-Analysis/
 │
 └── Screenshots/
     └── query_results_overview.png
-
 ```
