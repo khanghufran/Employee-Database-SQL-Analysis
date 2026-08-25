@@ -174,7 +174,6 @@ The analysis produced several workforce-related findings, including:
 - Relational database concepts
    
 ## Repository Structure
-
 ```text
 Employee-Database-SQL-Analysis/
 │
